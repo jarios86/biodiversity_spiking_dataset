@@ -28,7 +28,10 @@ WABAD
         └── AEDAT
 ```
 
-The `Recording site` does not indicate the specie.
+- **WABAD** is the root folder of the dataset.
+- **Recording site** contains different folders (that do not indicate the species). 
+- **Recordings** is the folder with the original audio files in WAV format.
+- **Spikes** is the folder with event-based files in AEDAT format.
 
 For the image conversion: 
 
@@ -42,12 +45,26 @@ IBERBirds
 |       └── TXT
 ├── Sequences
 |   └── Species
-|       └── PNG
+|       └── Birds
+|           └── cam0
+|               └── frames
+|                   ├── PNG
+|                   └── timestamps.CSV
 ├── Bags
 |   └── Species
-|       ├── CSV
-|       └── BAG
+|       └── Birds
+|           └── Out
+|               ├── cam0-events.CSV
+|               └── out.BAG
 └── Spikes
     └── Species
         └── AEDAT
 ```
+
+- **IBERBirds** is the root folder of the dataset.
+- **Images** contains subfolders for each specie, where the original images are stored in PNG format.
+- **Labels** contains subfolders for each specie, with corresponding label files in TXT format.
+- **Sequences** contains subfolders for each specie and each bird, with the generated frame sequences in PNG format and the corresponding timestamps in a CSV file.
+- **Bags** contains subfolders for each species, including CSV files and BAG files related to each bird.
+- **Spikes** contains subfolders for each specie, where the event-based (spiking) files are stored in AEDAT format.
+
