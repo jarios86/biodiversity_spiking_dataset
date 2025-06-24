@@ -19,32 +19,26 @@ The datasets were (re)organized as follows.
 
 For the audio conversion:
 
-WABAD
-- Recording site
-  - Recordings
-    - WAV
-   Spikes
-    - AEDAT
-
-<directory_structure>
+```
 WABAD
 └── Recording site
     ├── Recordings
     |   └── WAV
     └── Spikes
         └── AEDAT
-</directory_structure>
+```
 
 For the image conversion: 
 
+```
 IBERBirds
-- Images
-  - Species
-    - PNG
-- Labels
-  - Species
-    - TXT
-- Spikes
-  - Spikes
-    - AEDAT
-
+├── Images
+|   └── Species
+|       └── PNG
+├── Labels
+|   └── Species
+|       └── TXT
+└── Spikes
+    └── Spikes
+        └── AEDAT
+```
