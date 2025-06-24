@@ -28,6 +28,8 @@ WABAD
         └── AEDAT
 ```
 
+The `Recording site` does not indicate the specie.
+
 For the image conversion: 
 
 ```
@@ -38,7 +40,14 @@ IBERBirds
 ├── Labels
 |   └── Species
 |       └── TXT
+├── Sequences
+|   └── Species
+|       └── PNG
+├── Bags
+|   └── Species
+|       ├── CSV
+|       └── BAG
 └── Spikes
-    └── Spikes
+    └── Species
         └── AEDAT
 ```
