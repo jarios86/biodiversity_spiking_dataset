@@ -18,14 +18,25 @@ For the image conversion, an additional environment (with Python 2) is needed:
 The datasets were (re)organized as follows.
 
 For the audio conversion:
+
 WABAD
 - Recording site
   - Recordings
     - WAV
-  - Spikes
+   Spikes
     - AEDAT
 
+<directory_structure>
+WABAD
+└── Recording site
+    ├── Recordings
+    |   └── WAV
+    └── Spikes
+        └── AEDAT
+</directory_structure>
+
 For the image conversion: 
+
 IBERBirds
 - Images
   - Species
