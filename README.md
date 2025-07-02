@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains three IPYNB files for converting two classical datasets (audio and image) into spiking datasets. 
+This repository contains three IPYNB files for the conversion of two classical datasets (audio and image) into spiking datasets. 
 To do so, an artificial cochlea (NAS) and an artificial retina simulator ([ESIM](https://github.com/uzh-rpg/rpg_esim)) were used, respectively. 
 
 ## Requirements
